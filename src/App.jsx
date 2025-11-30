@@ -1,3 +1,4 @@
+import Footer from "./components/layouts/Footer.jsx";
 import Header from "./components/layouts/Header.jsx";
 import Login from "./components/Login.jsx";
 import Register from "./components/Register.jsx";
@@ -10,6 +11,7 @@ function App() {
 				{/* <Login /> */}
 				<Register />
 			</div>
+			<Footer />
 		</>
 	);
 }
